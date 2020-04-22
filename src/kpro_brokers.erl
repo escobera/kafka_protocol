@@ -37,7 +37,7 @@
 -type group_id() :: kpro:group_id().
 -type transactional_id() :: kpro:transactional_id().
 
--define(DEFAULT_TIMEOUT, timer:seconds(5)).
+-define(DEFAULT_TIMEOUT, timer:seconds(45)).
 
 %% @doc Connect to any of the endpoints in the given list.
 -spec connect_any([endpoint()], config()) ->
